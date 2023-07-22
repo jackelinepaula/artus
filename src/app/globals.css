@@ -9,7 +9,20 @@
 }
 
 :root {
-  
+  --color1:#161616;
+  --color2:#1F1F1F;
+  --color3:#2B2B2B;
+  --color4:#363636;
+  --color5:#444444;
+  --color6:#535353;
+  --color7:#606060;
+  --color8:#6F6F6F;
+  --color9:#848484;
+  --color10:#9A9A9A;
+  --color11:#AAAAAA;
+  --color12:#BABABA;
+  --color13:#D4D4D4;
+  --color14:#EEEEEE;
 }
 
 @media (prefers-color-scheme: dark) {
