@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-
+    <main>
       <button><a href='/dash'>Dash</a></button>
+{/* 
 
       <div className={styles.description}>
         <p>
@@ -92,7 +91,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }

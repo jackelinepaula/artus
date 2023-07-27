@@ -1,0 +1,9 @@
+.navbar-container{
+    background-color: var(--bg-dark);
+
+    width: 260px;
+    height: 100vh;
+
+    padding: 40px 30px;
+
+}
