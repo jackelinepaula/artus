@@ -1,27 +1,33 @@
-:root{
-  --bg-dark: #181818;
-  --bg-dark-sec: #1d1e1f;
-  --border-color-card: #242424;
-  --text: #ffffff;
-  --text-sec: #b3b3b3;
+@import 'material-symbols';
 
-  --color1: #161616;
-  --color2: #1f1f1f;
-  --color3: #2b2b2b;
-  --color4: #363636;
-  --color5: #444444;
-  --color6: #535353;
-  --color7: #606060;
-  --color8: #6f6f6f;
-  --color9: #848484;
-  --color10: #aaaaaa;
-  --color11: #bababa;
-  --color12: #d4d4d4;
-  --color13: #eeeeee;
+:root {
+	--bg-dark: #181818;
+	--bg-dark-sec: #1d1e1f;
+	--border-color-card: #242424;
+	--text: #ffffff;
+	--text-sec: #b3b3b3;
+
+	--color1: #161616;
+	--color2: #1f1f1f;
+	--color3: #2b2b2b;
+	--color4: #363636;
+	--color5: #444444;
+	--color6: #535353;
+	--color7: #606060;
+	--color8: #6f6f6f;
+	--color9: #848484;
+	--color10: #aaaaaa;
+	--color11: #bababa;
+	--color12: #d4d4d4;
+	--color13: #eeeeee;
 }
 
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: var(--bg-dark);
 }

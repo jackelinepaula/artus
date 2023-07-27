@@ -10,7 +10,7 @@ export const inter = Inter({
 export const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  weight: '400',
+  weight: ["500", "400"],
   variable: '--font-poppins'
 })
 
@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + " " + poppins.className + " " + poppins.variable + " " + inter.variable}>{children}</body>
     </html>
   )
 }

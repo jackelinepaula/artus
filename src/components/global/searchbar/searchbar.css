@@ -1,0 +1,33 @@
+.search{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    gap: 5px;
+
+    background-color: var(--bg-dark-sec);
+    border-radius: 6px;
+    border: 0.5px solid var(--border-color-card);
+
+    color: var(--text-sec);
+}
+
+.search input{
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--color10);
+    font-size: 0.9rem;
+}
+
+.search:has(input:focus){
+    background-color: #161616;
+    transition: .2s;
+}
+
+.search span{
+    color: var(--color10);
+    font-size: 1.2rem;
+}

@@ -1,5 +1,8 @@
+import { Fragment } from "react"
+import NavLink from "./navLink/Navlink"
 import "./navbar.css"
 import Image from "next/image"
+import Button from "@/components/global/button/Button"
 
 export default function Navbar(){
     return (
@@ -8,10 +11,23 @@ export default function Navbar(){
                 <Image
                 src="/artus.svg"
                 alt="Artus Kanban Logo"
-                width={50}
+                width={80}
                 height={40}
                 priority
                 />
+            </div>
+
+            <div className="workspace-container">
+                <div className="workspace-title">
+                    <span>Workspace</span>
+                    <Button text="+"/>
+                </div>
+
+                <div className="navlink-container">
+                    <NavLink src={"/dash/sozino"} name={"Sozino"} color={"#1b3"}/>
+                    <NavLink src={"/dash/fatec"} name={"Fatec"} color={"#457"}/>
+                    <NavLink src={"/dash/discvery"} name={"Discovery Movie"} color={"#252"}/>
+                </div>
             </div>
         </nav>
     )

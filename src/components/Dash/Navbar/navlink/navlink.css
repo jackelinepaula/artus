@@ -1,0 +1,41 @@
+.navlink-container{
+    text-decoration: none;
+}
+
+    .navlink-container .navlink-button{
+        background-color: var(--bg-dark);  
+        
+        width: 100%;
+        padding: 0.5rem 1rem;
+
+        border: 0;
+        border-radius: 6px;
+
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        color: var(--text);
+        font-family: var(--font-poppins);
+
+        transition: 200ms;
+    }
+
+    .navlink-container .navlink-button:hover,
+    .navlink-container .navlink-button.active{
+        background-color: var(--bg-dark-sec);
+        
+        cursor: pointer;
+        transition: 200ms;
+
+    }
+
+        .navlink-container .navlink-button .marker{
+            background-color: #5F84DB;
+
+            height: 8px;
+            width: 8px;
+
+            border-radius: 2px;
+        }
+
