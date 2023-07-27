@@ -1,8 +1,8 @@
-import Navbar from "@/components/Dash/Navbar/Navbar";
+import Navbar from "@/components/dash/navbar/Navbar";
 
 
 export default function Dash(){
-    return (
+    return(
         <Navbar/>
     )
 }
