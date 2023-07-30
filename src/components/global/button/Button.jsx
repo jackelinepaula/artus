@@ -2,7 +2,7 @@ import './button.css'
 
 function Button(props){
     return(
-        <button className="button-sm" type="button">{props.text}</button>
+        <button className={"btn-component " + props.className} type="button">{props.text}</button>
     )
 }
 

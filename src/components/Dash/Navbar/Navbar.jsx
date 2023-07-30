@@ -20,7 +20,9 @@ export default function Navbar(){
             <div className="workspace-container">
                 <div className="workspace-title">
                     <span>Workspace</span>
-                    <Button text="+"/>
+                    <Button className={"btn-quadrado"} text={
+                        <span className="material-symbols-outlined">add</span>
+                    }/>
                 </div>
 
                 <div className="navlink-container">

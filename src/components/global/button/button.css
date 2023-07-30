@@ -1,13 +1,33 @@
-.button-sm{
+.btn-component{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--border-color-card);
-    width: 30px;
+    
+    padding: 1rem;
+    gap: 0.2rem;
+    
     height: 30px;
+    
+    border: 1px solid var(--border-color-card);
     border-radius: 6px;
     outline: none;
     background-color: var(--bg-dark-sec);
     cursor: pointer;
     color: var(--text-sec);
+
+    transition: 200ms;
+}
+
+.btn-component:hover, .btn-component:focus{
+    background-color: var(--bg-dark);
+    transition: 200ms;
+}
+
+.btn-component.btn-quadrado{
+    height: 30px;
+    width: 30px;
+}
+
+.btn-component .material-symbols-outlined{
+    font-size: 1.2rem;
 }
