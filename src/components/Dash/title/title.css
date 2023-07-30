@@ -7,6 +7,15 @@
     margin: 30px 0px;
 }
 
+.title-container .title h5{
+    color: var(--color10);
+    font-weight: 500;
+}
+.title-container .title h1{
+    color: var(--text);
+    font-weight: 500;
+}
+
 .title-container .board-options-container{
     display: flex;
     gap: 1rem;

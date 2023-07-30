@@ -8,6 +8,7 @@
     padding: 40px 30px;
 
     display: flex;
+    
     flex-direction: column;
     gap: 2rem;
 
@@ -17,11 +18,13 @@
     .navbar-container .workspace-container{
         display: flex;
         flex-direction: column;
+        
         gap: 0.5rem;
     }
         .navbar-container .workspace-container .workspace-title{
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             color: var(--text);
             font-family: var(--font-poppins);
