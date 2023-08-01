@@ -1,13 +1,11 @@
 .board-container{
     width: auto;
     white-space: nowrap;
-    overflow-x:auto;
+    overflow-x: scroll;
 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 
     gap: 2rem;
-
-    padding-left: 40px;
 }
