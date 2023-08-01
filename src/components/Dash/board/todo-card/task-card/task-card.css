@@ -17,6 +17,7 @@
     grid-area: title;
     color: var(--text);
     font-weight: 500;
+    font-family: var(--font-text);
 }
 
 .task-card p{
@@ -29,6 +30,7 @@
 
     overflow-y: hidden;
     text-overflow: ellipsis;
+    font-family: var(--font-text);
 
     color: var(--text-sec);
 }
@@ -55,4 +57,5 @@
 
     font-size: 0.8rem;
     color: var(--text-sec);
+    font-family: var(--font-text);
 }

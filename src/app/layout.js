@@ -1,17 +1,18 @@
 import './globals.css'
-import { Inter, Poppins } from 'next/font/google'
+import { Roboto, Poppins } from 'next/font/google'
 
-export const inter = Inter({
+export const textFont = Roboto({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter'
+  weight: ['100', '300', '400', '500', '700', '900'],
+  variable: '--font-text'
 })
 
-export const poppins = Poppins({
+export const displayFont = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  weight: ["500", "400"],
-  variable: '--font-poppins'
+  weight: ['100','200', '300', '400', '500','600', '700','800', '900'],
+  variable: '--font-display'
 })
 
 export const metadata = {
@@ -22,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className + " " + poppins.className + " " + poppins.variable + " " + inter.variable}>{children}</body>
+      <body className={textFont.className + " " + displayFont.className + " " + displayFont.variable + " " + textFont.variable}>{children}</body>
     </html>
   )
 }
