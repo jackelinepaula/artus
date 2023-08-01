@@ -1,16 +1,6 @@
-.body-content{
-    display: grid;
-
-    grid-template-columns: 240px auto;
-    grid-template-areas: 
-    'navbar main-content';
+.main-content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
 }
-
-#navbar{
-    grid-area: navbar;
-}
-
-#main-content{
-    grid-area: main-content;
-}
-
