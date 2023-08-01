@@ -27,9 +27,9 @@
     justify-content: space-between;
     align-items: center;
 
-    color: var(--text);
+    color: var(--text-sec);
     font-family: var(--font-poppins);
-    font-weight: 500;
+    font-size: 1rem;
 
     padding: 1rem 0px;
 

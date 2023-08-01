@@ -26,9 +26,9 @@ export default function Navbar(){
                 </div>
 
                 <div className="navlink-container">
-                    <NavLink src={"/dash/sozino"} name={"Sozino"} color={"#1b3"}/>
-                    <NavLink src={"/dash/fatec"} name={"Fatec"} color={"#457"}/>
-                    <NavLink src={"/dash/discvery"} name={"Discovery Movie"} color={"#252"}/>
+                    <NavLink src={"/dash/wikiflix"} name={"Wikiflix"} color={"#5F84DB"}/>
+                    <NavLink src={"/dash/freegame"} name={"Freegame"} color={"#DDA516"}/>
+                    <NavLink src={"/dash/emm"} name={"Emm"} color={"#6E0C9C"}/>
                 </div>
             </div>
         </nav>

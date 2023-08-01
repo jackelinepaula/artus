@@ -5,6 +5,8 @@
     justify-content: space-between;
 
     margin: 30px 0px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .title-container .title h5{
@@ -15,7 +17,8 @@
 .title-container .title h1{
     color: var(--text);
     font-family: var(--font-text);
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 1.7rem;
 }
 
 .title-container .board-options-container{
