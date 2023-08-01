@@ -11,6 +11,6 @@ export default function Dash(){
                 <Main />
             </div>
         </>
-        
+
     )
 }
