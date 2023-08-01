@@ -1,16 +1,16 @@
-import Navbar from "../dash/navbar/Navbar"
-import MainContent from "../mainContent/mainContent"
+import Header from "../dash/header/Header"
+import Title from "../dash/title/Title"
+import Board from "../dash/board/Board"
 
 import './main.css'
 
 function Main(){
     return(
-
-        <div className="body-content">
-            <Navbar />
-            <MainContent />
-        </div>
-        
+        <main id="main-content" className="main-content">
+            <Header />
+            <Title />
+            <Board />
+        </main>
     )
 }
 

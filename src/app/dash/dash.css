@@ -1,4 +1,16 @@
-/* .main-container{
-    margin-left: 260px;
-    padding: 30px 40px;
-} */
+.body-content{
+    display: grid;
+
+    grid-template-columns: 240px auto;
+    grid-template-areas: 
+    'navbar main-content';
+}
+
+#navbar{
+    grid-area: navbar;
+}
+
+#main-content{
+    grid-area: main-content;
+}
+
