@@ -9,10 +9,12 @@
 
 .title-container .title h5{
     color: var(--color10);
+    font-family: var(--font-display);
     font-weight: 500;
 }
 .title-container .title h1{
     color: var(--text);
+    font-family: var(--font-text);
     font-weight: 500;
 }
 

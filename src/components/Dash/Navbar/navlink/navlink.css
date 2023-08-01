@@ -16,7 +16,7 @@
         gap: 0.5rem;
 
         color: var(--text);
-        font-family: var(--font-poppins);
+        font-family: var(--font-display);
 
         transition: 200ms;
     }

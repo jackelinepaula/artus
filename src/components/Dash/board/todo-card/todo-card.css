@@ -1,0 +1,43 @@
+.todo-card{
+    width: 330px;
+    height: auto;
+
+    background-color: var(--bg-dark);
+    border: 2px solid var(--border-color-card);
+    border-radius: 6px;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.todo-card .todo-status{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    color: var(--text);
+}
+
+.todo-card .todo-status .icon-status{
+    display: block;
+    height: 18px;
+    width: 18px;
+    background-color: var(--bg-dark);
+
+    border: solid 2px var(--text-sec);
+    border-radius: 50%;
+}
+
+.todo-card .todo-status{
+
+}
+
+
+.todo-card .btn-new-task{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}

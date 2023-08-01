@@ -1,6 +1,11 @@
 .board-container{
-    display: grid;
+    width: auto;
+    white-space: nowrap;
+    overflow-x:auto;
 
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 100px
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    gap: 2rem;
 }
