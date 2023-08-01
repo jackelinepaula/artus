@@ -1,4 +1,4 @@
-import { Fragment } from "react"
+
 import NavLink from "./navLink/Navlink"
 import "./navbar.css"
 import Image from "next/image"
@@ -6,7 +6,7 @@ import Button from "@/components/global/button/Button"
 
 export default function Navbar(){
     return (
-        <nav className="navbar-container">
+        <nav id="navbar" className="navbar-container">
             <div className="logo-container">
                 <Image
                 src="/artus.svg"

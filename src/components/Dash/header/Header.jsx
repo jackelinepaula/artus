@@ -4,7 +4,7 @@ import SearchBar from "@/components/global/searchbar/Searchbar";
 
 export default function Header(){
     return(
-        <div className="header-container">
+        <div id="header" className="header-container">
             <SearchBar text="O que você está procurando...?"/>
 
             <div className="profile-container">

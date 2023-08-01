@@ -5,7 +5,7 @@ import { Fragment } from "react";
 
 export default function Title(){
     return(
-        <div className="title-container">
+        <div id="title" className="title-container">
             <div className="title">
                 <h5>Board</h5>
                 <h1>Wikiflix</h1>

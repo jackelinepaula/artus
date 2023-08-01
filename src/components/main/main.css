@@ -1,0 +1,16 @@
+.body-content{
+    display: grid;
+
+    grid-template-columns: 240px auto;
+    grid-template-areas: 
+    'navbar main-content';
+}
+
+#navbar{
+    grid-area: navbar;
+}
+
+#main-content{
+    grid-area: main-content;
+}
+
