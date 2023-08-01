@@ -17,7 +17,7 @@
 
     color: var(--text);
     font-family: var(--font-display);
-
+    font-size:0.9rem;
 
     transition: 200ms;
 }
